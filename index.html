@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="main.js"></script>
+
+  <title>Document</title>
+
+
+  <body id="body" onload="titleColor()">
+
+    <head>
+      <h1 id="heading">Learning JavaScript</h1>
+      <p>With Brad Traversy</p>
+    </head>
+    <form action="something.php" method="post" name='myForm' onsubmit="return validateForm()">
+      <div>
+        <label for="">First Name</label>
+        <input type="text" name="firstName" id="" placeholder="first-name">
+      </div>
+      <div>
+        <label for="">Last Name</label>
+        <input type="text" name="lastName" id="" placeholder="last-name">
+      </div>
+      <div>
+        <label for="">Background</label>
+        <select name="background" id="background" onchange="changeBackground(this)">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="yellow">Yellow</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="submit">
+      </div>
+    </form>
+
+
+  </body>
+
+</html>
+
+<!-- <body onload="showDate()">
+  <div class="header text-center m-3
+  ">
+    <h1 id="heading">Learning JavaScript</h1>
+    <p>With Brad Traversy</p>
+  </div>
+
+  <div class="container">
+    <div class="container m-auto">
+      <button onmouseout="clearDate()" onmousemove="showDate()">Click Me</button>
+      <h1 id="time"></h1>
+    </div>
+  </div>
+</body> -->
