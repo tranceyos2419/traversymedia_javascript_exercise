@@ -2,11 +2,16 @@ $bg-color:blue;
 
 body{
 text-align: center;
-
+font-size: 14px;
+h1{
+  font-size: 30px;
 }
+}
+
 
 form{
   div{
     margin: 20px auto;
+    padding: 20px;
   }
 }
